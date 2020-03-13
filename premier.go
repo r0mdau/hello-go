@@ -7,7 +7,7 @@ import (
 )
 
 func premier(n int) bool {
-	if n % 2 == 0 {
+	if n%2 == 0 {
 		return n == 2
 	}
 
