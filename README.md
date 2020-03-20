@@ -21,3 +21,9 @@ go test -bench=.
 ```
 
 Writing example for godoc path `integers/adder_test.go`
+
+Go linter
+```bash
+go get -u github.com/kisielk/errcheck
+errcheck .
+```
