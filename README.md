@@ -27,3 +27,5 @@ Go linter
 go get -u github.com/kisielk/errcheck
 errcheck .
 ```
+
+Nice exemple in dependency injection to test writers to stdout.
