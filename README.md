@@ -20,6 +20,11 @@ cd iteration/
 go test -bench=.
 ```
 
+Race : test race condition
+```shell script
+go test -race
+```
+
 Writing example for godoc path `integers/adder_test.go`
 
 Go linter
