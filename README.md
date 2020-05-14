@@ -34,3 +34,5 @@ errcheck .
 ```
 
 Nice exemple in dependency injection to test writers to stdout.
+
+Goroutines and Channels are covered in `concurrency/`. Waiting for multiple channels is covered in `select/`.
