@@ -33,6 +33,10 @@ go get -u github.com/kisielk/errcheck
 errcheck .
 ```
 
-Nice exemple in dependency injection to test writers to stdout.
+### Overview of folders
+
+Nice exemple in `dependency_injection/` to test writers to stdout.
 
 Goroutines and Channels are covered in `concurrency/`. Waiting for multiple channels is covered in `select/`.
+
+Use a thread safe counter in `sync/`.
