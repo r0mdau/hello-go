@@ -41,4 +41,5 @@ Goroutines and Channels are covered in `concurrency/`. Waiting for multiple chan
 
 Use a thread safe counter in `sync/`.
 
-`context/` to help us manage long-running processes.
+`context/` to help us manage long-running processes. From client cancellation to timeout, the goal is to quickly exit 
+goroutines when handling http requests for example. More details : https://blog.golang.org/context
