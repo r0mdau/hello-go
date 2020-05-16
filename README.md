@@ -40,3 +40,5 @@ Nice exemple in `dependency_injection/` to test writers to stdout.
 Goroutines and Channels are covered in `concurrency/`. Waiting for multiple channels is covered in `select/`.
 
 Use a thread safe counter in `sync/`.
+
+`context/` to help us manage long-running processes.
